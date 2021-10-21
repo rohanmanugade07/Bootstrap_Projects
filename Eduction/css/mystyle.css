@@ -1,0 +1,283 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+li
+{
+	list-style:none;
+	display:inline-block;
+}
+a
+{
+	text-decoration:none;
+}
+
+/*NAVIGATION*/
+.navbar
+{
+	background-color:#002147 !important;
+	font-family:'PT Sans Narrow',Arial,sans-serif;
+	font-weight:700;
+}
+.navbar a
+{
+	color:#fff !important;
+	opacity:0.7;
+}
+.navbar a:hover
+{
+	opacity:1;
+	background-color:#f7cb0a !important;
+}
+.navbar img
+{
+	margin-left: -148px;
+	width:51px;
+	
+}
+.navbar #title
+{
+	margin-left:10px;
+	position:relative;
+	left: 38px;
+	background:none;
+}
+.header
+{
+	width:100%;
+	height: 632px;
+	margin-top:50px;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/Background/clgcampus.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	color:#fff;
+}
+.header h1
+{
+	text-align:center;
+	margin-top: 306px;
+	font-family:'PT Sans Narrow',Arial,sans-serif;
+	font-weight:700;
+}
+.header p
+{
+	text-align:center;
+	margin-top:15px;
+	font-family:'PT Sans Narrow',Arial,sans-serif;
+	font-weight:700;
+}
+.header button
+{
+	 margin-top:15px;
+}
+ .welcome
+ {
+	 padding: 28px 0 40px 0;
+	 text-align:center;
+ }
+ .welcome h2
+ {
+	 font-family:Nyala;
+	 font-size:48px;	 
+
+ }
+ @media screen and (min-width:992px)
+ {
+	.welcome img
+	{
+		
+		margin-left:180px;
+	}
+	 
+ }
+ .features
+ {
+	 background-color:#f5f5f5;
+	 margin-top: -40px;
+	 text-decoration:none;
+	}
+ .features img
+ {
+	 width:100%;
+	 height:200px;
+	
+ }
+.features h4
+{
+	font-family:Nyala;
+	font-size:25px;	 
+	
+}
+.features h3
+{
+	font-family:Nyala;
+	font-size:48px;	
+}	
+.features p
+{
+	font-family:Nyala;
+	color:#2a2020;
+	font-size:16px;	 
+}
+.Courses
+{
+	padding: 5px 5px 41px 15px;
+}	
+.youtube_img
+{
+	width:102%;
+	height:500px;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/Background/8.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.youtube h3
+{
+	font-family:Nyala;
+	font-size:40px;	 
+	color:#fff;
+	margin-top:20%;
+}
+.youtube p
+{
+	font-family:Nyala;
+	font-size:16px;	 
+	color:#fff;
+}
+.youtube .img-responsive
+{
+	margin:0 auto;
+	padding-bottom:15px;
+}
+.lectures h3
+{
+    font-family:Nyala;
+	font-size:48px;	
+}
+.staff
+{
+	width:100%;
+	height:100%;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/Background/grp.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:15%;
+}
+.staff b
+{
+
+	color:#fff;
+}
+.count,.count1,.count2,.count3
+{
+	font-size:500%;
+	margin-left: 10%;
+	color:#fff;
+}
+
+
+.student p
+{
+  margin-top:50px;
+  font-family:Nyala;
+  font-size:18px;
+}
+.student img
+{
+   margin-top:-144px;
+   margin-right:75px;
+}
+.student
+{
+  background-color:#f7cb0a;
+  padding-bottom:35px;
+}
+.student h3
+{
+	font-family:Nyala;
+	font-size:48px;	
+}	
+
+  @media screen and (max-width:768px)
+  {
+	.student #stdimg2
+	{
+		margin-top:10%;
+		margin-left:-30px;
+		 
+	}
+	.student #name
+	{
+		margin-top:30px;
+		
+	}
+	  
+  }
+footer
+{
+    background-color:#002147;
+    height:100%;
+    width:100%;
+    bottom:0;
+    font-weight:lighter;
+    color:white;
+}
+.footer Header
+{
+    width:100%;
+    padding:1em;
+    text-align:center;
+    color:white;
+	
+}
+.footer2
+{
+	border:2px solid #001a3b;
+	background-color:#001a3b; 
+    height:30%;	
+}
+footer h3
+{
+    font-weight:lighter;
+}
+footer ul
+{
+    padding-left:5px;
+    list-style:none;
+}
+footer p
+{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe 
+{
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm
+{
+    list-style:none;
+    overflow:auto;
+}
+.sm li 
+{
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a i
+{
+    font-size:35px;
+	color:#f7cb0a;
+}
+.lectures i
+{
+	color:#f7cb0a;
+	font-size:35px;
+}
