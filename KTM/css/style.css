@@ -1,0 +1,311 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.navbar
+{
+	background-color:#151515;
+	font-family:PT Sans Narrow;
+	font-weight:700;
+}
+
+.navbar a
+{
+	color:#fff;
+	opacity:0.9;
+}
+.navbar a:hover
+{
+	opacity:1;
+	background-color:#111111;
+}
+.home
+{
+	height:665px;
+	width:100%;
+	background-image:url(../images/background/img12.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#fff;
+}
+.home h1
+{
+	font-weight:700;
+	font-size:120px;
+	margin-top: 210px;
+}
+@media only screen and (max-width:768px)
+{
+	.home h1
+{
+	font-weight:700;
+	font-size:75px;
+	margin-top:210px;
+}
+}
+@media only screen and (max-width:481px)
+{
+	.home h1
+	{
+		font-weight:700;
+		font-size:70px;
+		margin-top: 192px;
+	}
+	.home glyphicon
+	{
+		
+	}
+}
+.home span
+{
+	color:#ff6610;
+}
+.home span:hover
+{
+	 transition:all 0.5s ease-in;
+	 padding:5px 10;
+}
+.vision
+{
+	background-color:#f2f2f2;`
+}
+.vision h2
+{
+	font-family:Myriad Pro;
+	font-weight:700;
+	text-align:center;
+	color:#000;
+}
+.vision p
+{
+	text-align:justify;
+    font-family:Arial;
+	color:#000;
+	font-size:17px;
+}
+.vision .btn
+{
+	border:none;
+	margin-top:30px;
+
+	
+}
+.vision .btn:hover
+{
+	background-color:#f24f0a;
+}
+.vision img
+{
+	width:100%;
+	margin-top:23px;
+	border:3px solid grey;
+}
+
+
+.bikes
+{
+   margin-top:50px;	
+}
+
+.thumbnails li> .fff .caption 
+{ 
+    background:#fff !important; 
+    padding:10px
+}
+
+.caption h4 
+{
+    color: #444;
+}
+
+.caption p 
+{  
+    color: #999;
+}
+
+.control-box 
+{
+    text-align: right;
+    width: 100%;
+}
+.carousel-control
+{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+@media (max-width: 767px) 
+{
+    .page-header, .control-box 
+	{
+        text-align: center;
+    } 
+}
+@media (max-width: 479px) 
+{
+    .caption 
+	{
+        word-break: break-all;
+    }
+}
+
+
+li { list-style-type:none;}
+
+
+
+.race
+{
+	height:665px;
+	width:100%;
+	padding:30px 0 30px;
+	margin-top:30px;
+	background-image:url(../images/background/img3.jpg);
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#fff;
+}
+.race h2
+{
+	font-family:Myriad Pro;
+	font-weight:700;
+	font-size:48px;
+	margin-top:30%;
+	
+}
+.race p
+{
+	text-align:justify;
+    font-family:Myriad Pro;
+	color:#ffffff;
+	font-size:18px;
+	margin-top:20px;
+}
+.race .btn
+{
+   background-color:#ff6610;
+   
+}
+.dealer
+{
+	background-color:#ff6610;
+	padding:35px 0px 35px;
+}
+.dealer h2
+{
+	text-align:center;
+	text-decoration:none;
+	margin-top:10px;
+	color:#000000;
+	font-weight:700;
+}
+.dealer img
+{
+	margin-top:20px;
+	width:70%;
+}
+.contact h2
+{
+	text-align:center;
+	text-decoration:none;
+
+	color:#000000;
+	font-weight:700;
+}
+.contact 
+{
+	padding:30px 0px 80px;
+}
+.contact .input-group
+{
+	margin-bottom:25px;
+	margin-top:30px;
+	
+}
+.contact .form-control
+{
+	border-radius:0;
+}
+.contact .btn
+{
+	border-radius:0;
+	width:100%;
+	font-size:18px;
+	font-weight:700;
+	background-color:#f08080;
+	color:#fff;
+}
+.contact .btn:hover
+{
+	background-color:#a85959;
+	color:#fff;
+	border:none;
+	text-decoration:none;
+}
+
+.footer
+{
+	padding:30px;
+	color:#cccccc;
+	background-color:#222222;
+}
+.footer .social
+{
+	font-size:20px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	padding:5px;
+     color:#fff;
+	margin-bottom:10px;
+	margin-right:5px;
+	background-color:#FF6610;
+}
+.footer input
+{
+	height:40px;
+	width:160px;
+	padding:5px;
+	border:none;
+	background-color:#cccccc;
+	color:#fff;
+}
+.footer .btn
+{
+	padding:10px 5px 10px;
+	margin:0 0 5px;
+}
+.footer p
+{
+	color:#cccccc;
+	text-decoration:none;
+	list-style:none;
+	
+}
+@media (max-width: 768px) 
+{
+    .footer .about
+	{
+        margin-top:100px;
+    }
+	.footer .abc
+	{
+		margin-top:30px;
+	}
+	
+}
