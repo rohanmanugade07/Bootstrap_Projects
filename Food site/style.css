@@ -1,0 +1,345 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+.row
+{
+	max-width:1140px;
+	margin:0 auto;
+}
+.hero
+{
+	position:absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+ header
+ {
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(foodimages/background/7.jpg);
+  height:100%;
+  background-position:center;	
+  background-size:cover;
+  font-family:tahoma;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+ }
+ h1
+ {
+	 color:white;
+ }
+ .main-nav
+ {
+	float:right;
+    list-style:none;
+	margin-top:70px;
+}
+ .main-nav li 
+ {
+	display:inline-block;
+    margin-left:30px;	
+ }
+ .main-nav li a
+ {
+	 font-size:90%;
+	 text-decoration:none;
+	 color:white;
+	 font-weight:bold;
+}
+ .logo img
+ {
+	 height:120px;
+	 float:left;
+	 margin-top:25px;
+ }
+ 
+ .main-nav li a:hover
+ {
+	 color:#e67e22;
+	 border-bottom:2px solid #e67e22;
+	 transition:all 0.5s ease-in;
+	 padding:15px 10;
+ }
+ 
+ .btn
+ {
+	 border:1px solid #e67e22;
+	 padding:10px 30px;
+	 margin-left:10px;
+	 text-decoration:none;
+	 color:white;
+	 border-radius:12px;
+ }
+ .button1
+ {
+	 margin-top:30px;
+ }
+ .btn-half:hover
+ {
+	 background-color:#e67e22;
+	 transition:all 0.5s ease-in;
+	 color:white;
+
+	 
+ }
+ .btn-full:hover
+ {
+	 background-color:#e67e22;
+	 transition:all 0.5s ease-in;
+	  color:white;
+ }
+ 
+ h3:after
+ {
+	 width:100px;
+	 height:2px;
+	 background-color:#e67e22;
+	 display:block;
+	 margin:0 auto;
+	 margin-top:20px;
+	 
+ }
+ 
+ .simple h3
+ {
+	margin-top:80px;
+	 margin-bottom:30px;
+ }
+ .para
+ {
+	 width:70%;
+	 margin-left:15%;
+	 text-align:justify;
+ 
+}
+ .arrange
+ {
+	 text-align:justify;
+ }
+ 
+ .simple h4
+ {
+	 text-align:center;
+ }
+ 
+ .simple i
+ {
+	 margin-left:40%;
+	 font-size:40px;
+	 color:#e67e22;
+	 margin-top:15px;
+ }
+ 
+ .img-show
+ {
+	 list-style:none;
+	 width:100%;
+ }
+ .img-show li
+ {
+	 display:block;
+	 width:25%;
+	 float:left;
+ }
+ 
+ .meal-photo
+ {
+	 width:100%;
+	 margin:0;
+	 overflow:hidden;
+ }
+ .meal-photo img
+ {
+	 width:100%;
+	 height:auto;
+	 transform:scale(1.15);
+	 transition:all 0.5s;
+ }
+ 
+ .meal-photo img:hover
+ {
+	  transform:scale(1.05);
+	 
+ }
+  .meal
+  {
+	  margin-top:40px;
+  }
+  
+ .pic img
+ {
+	 margin-left:25%;
+	 margin-top:50px;
+	 
+ }
+ .workspace
+ {
+	 margin-top:50px;
+ }
+ 
+ .workspace div
+ {
+	 border:1px solid #e67e22;
+	 display:inline-block;
+	 border-radius:50%;
+	 width:50px;
+	 height:50px;
+	 text-align:center;
+	 line-height:50px;
+	
+	 
+ }
+ 
+ .workspace img
+ {
+	height:40px;
+	margin-top:20px;
+	margin-right:20px;
+ }
+ .clearfix
+ {
+	 zoom:1;
+ }
+ 
+  .clearfix:after
+  {
+	  visibility:hidden;
+	  content:"."
+	  height:0;
+	  display:block;
+	  clear:both;
+  }
+  .mobile
+  {
+	  margin-top:60px;
+  }
+ 
+  .cities
+  {
+	   margin-top:100px;
+  }	  
+ 
+ .cities i
+ {
+	 color:#e67e22;
+ }
+ .cities img
+ {
+	 margin-top:50px;
+ }
+ 
+ .cust_review cite img
+ {
+	 width:50px;
+	 height:50px;
+	 border-radius:60%;
+ }
+  .cust_review 
+  {
+	  margin-top:60px;
+	  margin-bottom:60px;
+	  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(foodimage/9.jpg);
+	  color:white;
+	  padding-top:60px;
+	  padding-bottom:30px;
+	  background-attachment:fixed;
+	  
+  }
+  .cust_review  p
+  {
+	   margin-top:30px;
+	   text-align:justify;
+	   color:white;
+	   line-height:25px;
+	   font-size:13px;
+	  
+  }
+  .cust_review i
+  {
+	  font-size:30px;
+	   margin-top:10px;
+	 
+  }
+  .cust_review  h3
+  {
+	 margin-top:10px;
+  }
+  
+  .btn-block
+  {
+	  background-color:#e67e22;
+	  color:white;
+	  border-radius:4px;
+	  margin-top:20px;
+	 
+  }
+  .gap
+  {
+	  margin-top:40px;
+  }
+  
+  .menu
+  {
+	 text-decoration:none;
+  }
+  
+  .social-icon
+  {
+	  
+	  font-size:40px;
+	  text-align:center;
+	  margin-left:30px;
+	  margin-top:50px;
+	  float:right;
+	  color:#e67e22;
+  }
+  
+  .social-icon a
+  {
+	   color:white;
+	   margin-top:65px;
+  }
+   
+  .footer
+  {
+	  background-color:#333333;
+	  margin-top:50px;
+	 
+	  
+  }
+  
+  .main-footer
+  {
+	  font-size:12px;
+	  margin-top:50px;
+	  line-height:25px;
+	  margin-left:135px;
+	  text-align:justify;
+	 
+  }
+    .main-footer  li a
+	{
+		color:white;
+	}
+	
+  .main-footer h4
+  {
+	  color:#e67e22;
+	 
+	  
+  }
+  .read a
+  {
+	  margin-bottom:45px;
+  }
+  .footer p
+  {
+	  color:#fff;
+  }
+  .footer img
+  {
+	  margin-top:25px;
+	  margin-left:50px;
+  }
